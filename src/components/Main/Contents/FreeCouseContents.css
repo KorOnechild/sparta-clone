@@ -1,0 +1,31 @@
+.tastesblock__contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1200px;
+}
+
+.tastesblock__contents img{
+    max-width: 580px;
+
+}
+
+.tastesblock__popular-free-contents{
+    background: #fff;
+    width: 580px;
+
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tastesblock__popular-free-contents-title{
+    font-size: 18px;
+    line-height: 150%;
+    color: #141617;
+    font-weight: bold;
+    display: inherit;
+    padding-left: 20px;
+} 

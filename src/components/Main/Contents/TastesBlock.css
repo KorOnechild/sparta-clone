@@ -1,0 +1,33 @@
+.tastesblock__wrap{
+    background: #f2f6f8;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tastesblock__titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1200px;
+}
+
+.tastesblock__titles h4{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 140%;
+    color: #141617;
+}
+
+.tastesblock__titles p{
+    font-size: 16px;
+    color: #9DA7AE;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    cursor: pointer;
+}

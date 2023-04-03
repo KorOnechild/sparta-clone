@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Main/Header";
 import Footer from "./components/Main/Footer";
 import Banner from "./components/Main/Banner";
+import TastesBlock from "./components/Main/Contents/TastesBlock";
 
 import contents from "./data/data.json";
 import creations from "./data/creations.json";
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
+      <TastesBlock contents={dummyData.contents.contents} />
       <Footer />
     </div>
   );
