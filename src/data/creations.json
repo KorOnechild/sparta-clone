@@ -17,6 +17,14 @@
       "desc": "여러분은 어떤 기분이 들면 무슨 노래를 들으시나요? 감정 플레이리스트에 감정에 따른 음악을 기록해보세요"
     },
     {
+      "image": "https://media-sparta.s3.amazonaws.com/media/tempvideos/20200829/9aaainwiaah27zdy.png",
+      "name": "안세아",
+      "course": "웹개발 종합반",
+      "title": "유해성분 알림e",
+      "like": "838",
+      "desc": "상품 전 성분표 사진을 업로딩하면, 유해성분 포함 여부를 알려주고, 해당 유해성분의 간략한 정보 제공."
+    },
+    {
       "image": "https://media-sparta.s3.amazonaws.com/media/tempvideos/20210731/i0dm3g8hli2on2wc.png",
       "name": "민예지",
       "course": "웹개발 종합반",
