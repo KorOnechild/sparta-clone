@@ -1,0 +1,48 @@
+.header__wrap{
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.header__wrap button{
+    all: unset;
+
+    cursor: pointer;
+}
+
+.header__wrap button:hover{
+    color: rgb(232, 52, 78);
+}
+
+.header__contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+
+.header__line{
+    width: 1px;
+    height: 14px;
+    background: rgb(199, 210, 216);
+}
+
+.header__img{
+    display: block;
+    width: 93px;
+    height: 34px;
+}
+
+.header__icon{
+    height: 34px;
+}
