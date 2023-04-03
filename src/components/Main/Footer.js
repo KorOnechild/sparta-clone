@@ -32,10 +32,13 @@ const Footer = () => {
           </div>
 
           <div className="footer__sns-icons">
-            <img src="img/sns-naverblog-logo.png" alt="sns-naverblog-logo" />
-            <img src="img/sns-tistory-logo.png" alt="sns-tistory-logo" />
-            <img src="img/sns-insta-logo.png" alt="sns-insta-logo" />
-            <img src="img/sns-youtube-logo.png" alt="sns-youtube-logo" />
+            <img
+              src="img/sns/sns-naverblog-logo.png"
+              alt="sns-naverblog-logo"
+            />
+            <img src="img/sns/sns-tistory-logo.png" alt="sns-tistory-logo" />
+            <img src="img/sns/sns-insta-logo.png" alt="sns-insta-logo" />
+            <img src="img/sns/sns-youtube-logo.png" alt="sns-youtube-logo" />
           </div>
         </div>
       </div>
