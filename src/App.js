@@ -1,5 +1,7 @@
 import React from "react";
 
+import Catalog from "./components/Catalog/Catalog";
+
 import contents from "./data/data.json";
 import creations from "./data/creations.json";
 
@@ -9,11 +11,9 @@ function App() {
     creations: creations
   };
 
-  console.log(dummyData);
-
   return (
     <div className="App">
-      Hi
+      <Catalog data={dummyData.contents} />
     </div>
   );
 }
