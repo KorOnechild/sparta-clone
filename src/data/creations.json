@@ -1,0 +1,28 @@
+{
+  "creations": [
+    {
+      "image": "https://media-sparta.s3.amazonaws.com/media/tempvideos/20210902/20ezs18haow6zoh0.jpg",
+      "name": "우성호",
+      "course": "웹개발 종합반",
+      "title": "WEPING We're Camping",
+      "like": "946",
+      "desc": "간단하고 더 예쁘고 직관적인 캠핑사이트 입니다. 캠핑장 API를 사용하여 전국의 캠핑장을 검색하고 지역,종류,테마 결과에 맞추어 하트 순위별로 내용을 보여줍니다. 사용자들이 쉽고 간단하게 검색 할 수 있도록 제작되었습니다. 우리가 찾던 캠핑장 위핑에서 지금 찾아보세요!"
+    },
+    {
+      "image": "https://media-sparta.s3.amazonaws.com/media/tempvideos/20200901/6w8o4l0mc13pclrp.png",
+      "name": "이규리",
+      "course": "웹개발 종합반",
+      "title": "감정 플레이리스트",
+      "like": "886",
+      "desc": "여러분은 어떤 기분이 들면 무슨 노래를 들으시나요? 감정 플레이리스트에 감정에 따른 음악을 기록해보세요"
+    },
+    {
+      "image": "https://media-sparta.s3.amazonaws.com/media/tempvideos/20210731/i0dm3g8hli2on2wc.png",
+      "name": "민예지",
+      "course": "웹개발 종합반",
+      "title": "맛집노트",
+      "like": "617",
+      "desc": "인스타그램 맛집이 아닌 로컬 찐맛집을 워하는 사람들을 위해 맛집 소개로 프로그램들이 추천하는 음식점들을 모아놓은 홈페이지입니다"
+    }
+  ]
+}

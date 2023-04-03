@@ -1,0 +1,114 @@
+{
+  "contents": [
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/gpt_clone.png",
+      "title": "손쉽게 따라하는 ChatGPT 클론코딩",
+      "desc": "자주 사용하는 인기 3종 앱서비스를 chatGPT로 뚝딱 만들어봐요!",
+      "time": "2주과정",
+      "lang": ["gpt"],
+      "tag": "new",
+      "category": "gpt",
+      "price": "90,000"
+    },
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/web.png",
+      "title": "웹개발 종합반",
+      "desc": "코딩이 처음이라면, 기본이 되는 웹개발을 시작으로 넓고 얕게 코딩을 만나보세요.",
+      "time": "5주과정",
+      "lang": ["html", "css", "python", "javascript"],
+      "tag": "popular",
+      "category": "it",
+      "price": "500,000"
+    },
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/app.png",
+      "title": "앱개발 종합반",
+      "desc": "내가 만든 앱을 세상에 선보일 수 있습니다. 무엇이든 만들 수 있는 사람이 되세요.",
+      "time": "5주과정",
+      "lang": ["flutter"],
+      "tag": "popular",
+      "category": "it",
+      "price": "500,000"
+    },
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/sql.png",
+      "title": "엑셀보다 쉬운 SQL",
+      "desc": "당장 내 업무에 필요한 데이터를 추출하고, 분석할 수 있는 힘을 기릅니다.",
+      "time": "4주과정",
+      "lang": ["sql"],
+      "tag": "popular",
+      "category": "license",
+      "price": "500,000"
+    },
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/spring.png",
+      "title": "웹개발의 봄, 스프링",
+      "desc": "백엔드의 봄, 스프링을 배웁니다. 나만의 웹서비스를 만들고 배포해봅니다.",
+      "time": "5주과정",
+      "lang": ["java", "spring"],
+      "tag": "popular",
+      "category": "junior",
+      "price": "500,000"
+    },
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/youth.png",
+      "title": "띵동코딩 유스",
+      "desc": "일주일에 딱 2시간! 코딩 포트폴리오를 완성해 남다른 입시 스펙을 만듭니다.",
+      "time": "주에 2시간",
+      "lang": ["python"],
+      "tag": "youth",
+      "category": "junior",
+      "price": "375,000"
+    },
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/cpp-grammar.png",
+      "title": "C++ 문법 뽀개기",
+      "desc": "현대 코딩의 뿌리! C++기초를 다지고 간단한 틱택토 게임을 만들어봅니다.",
+      "time": "5시간분량",
+      "lang": ["C++"],
+      "tag": null,
+      "category": "game",
+      "price": "100,000"
+    },
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/webflow.png",
+      "title": "노코드로 완성도 있는 웹사이트 만들기",
+      "desc": "페이지 제작, 데이터베이스, 자동화까지 할 수 있는 노코드 올인원 클래스.",
+      "time": "5주과정",
+      "lang": ["nocode"],
+      "tag": "new",
+      "category": "it",
+      "price": "330,000"
+    },
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/chatgpt.png",
+      "title": "chatGPT로 10분 만에 웹사이트 만들기",
+      "desc": "chatGPT를 활용해 빠르게 웹사이트를 만들어봅니다.",
+      "time": "1시간분량",
+      "lang": ["gpt"],
+      "tag": "new",
+      "category": "free",
+      "price": "0"
+    },
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/coding101.png",
+      "title": "직장인 필수 코딩 용어 해설",
+      "desc": "일하면서 꼭 필요한 코딩용어를 1시간만에 끝낼 수 있습니다.",
+      "time": "1시간분량",
+      "lang": null,
+      "tag": null,
+      "category": "free",
+      "price": "0"
+    },
+    {
+      "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/zep.png",
+      "title": "Zep으로 메타버스 개발 맛보기",
+      "desc": "웹 메타버스 플랫폼 ZEP으로 메타버스 게임 개발에 입문해봅니다.",
+      "time": "1시간분량",
+      "lang": null,
+      "tag": null,
+      "category": "free",
+      "price": "0"
+    }
+  ]
+}
