@@ -2,7 +2,7 @@ import React from "react";
 
 import Category from "./Category";
 
-import "./CatalogCategory.css";
+import styles from "./CatalogCategory.module.css";
 const CatalogCategory = (props) => {
 
     const categoryEditHandler = (clickedCate) => {
@@ -10,7 +10,7 @@ const CatalogCategory = (props) => {
     };
 
     return (
-        <div className="catalog-category">
+        <div className={styles["catalog-category"]}>
             <Category category="all" clickedCate={props.clickedCate} onCategoryEditHandler={categoryEditHandler}>전체</Category>
             <Category category="free" clickedCate={props.clickedCate} onCategoryEditHandler={categoryEditHandler}>무료</Category>
             <Category category="it" clickedCate={props.clickedCate} onCategoryEditHandler={categoryEditHandler}>IT 직장인</Category>

@@ -4,7 +4,7 @@ import CatalogCategory from "./CatalogCategory/CatalogCategory";
 import CatalogFilter from "./CatalogFilter/CatalogFilter";
 import CourseList from "./Course/CourseList";
 
-import "./CatalogContents.css";
+import styles from "./CatalogContents.module.css";
 
 const CatalogContents = (props) => {
     // 원본 데이터 복사
@@ -52,12 +52,12 @@ const CatalogContents = (props) => {
     };
 
     return (
-        <div className="catalog-contents">
+        <div className={styles["catalog-contents"]}>
             <CatalogCategory
                 clickedCate={clickedCate}
                 onFilterWithCategory={filteringWithCategory}
             />
-            <div className="catalog-contents__right">
+            <div className={styles["catalog-contents__right"]}>
                 <CatalogFilter
                     clickedLang={clickedLang}
                     data={filteringData}

@@ -2,7 +2,7 @@ import React from "react";
 
 import CatalogFilterItem from "./CatalogFilterItem";
 
-import "./CatalogFilter.css";
+import styles from "./CatalogFilter.module.css";
 const CatalogFilter = props => {
     const clickedLang = props.clickedLang;
 
@@ -19,7 +19,7 @@ const CatalogFilter = props => {
     };
 
     return (
-        <div className="catalog-filter">
+        <div className={styles["catalog-filter"]}>
             <CatalogFilterItem clickedLang={clickedLang} onClickLangHandler={clickLangHandler} onClick={sortAllHandler}>전체</CatalogFilterItem>
             <CatalogFilterItem clickedLang={clickedLang} onClickLangHandler={clickLangHandler} onClick={() => CategoryFilterHandler(["html", "css"])}>HTML · CSS</CatalogFilterItem>
             <CatalogFilterItem clickedLang={clickedLang} onClickLangHandler={clickLangHandler} onClick={() => CategoryFilterHandler(["flutter"])}>Flutter</CatalogFilterItem>

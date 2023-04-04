@@ -2,11 +2,11 @@ import React from "react";
 
 import Course from "./Course";
 
-import "./CourseList.css";
+import styles from "./CourseList.module.css";
 
 const CatalogList = (props) => {
     return (
-        <div className="category-list">
+        <div className={styles["category-list"]}>
             {
                 props.data.map(content =>
                     <Course

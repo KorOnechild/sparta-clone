@@ -1,16 +1,19 @@
 import React from "react";
 
-import './CatalogFilterItem.css';
+import styles from './CatalogFilterItem.module.css';
 
 const CatalogFilterItem = props => {
+    const isClicked = props.children === props.clickedLang;
+
     const filterItemClickHandler = () => {
-        console.log(props.clickedLang)
         props.onClick();
         props.onClickLangHandler(props.children);
     };
 
     return (
-        <div className={`catalog-filter__button ${props.clickedLang === props.children ? "clicked" : ""}`} onClick={filterItemClickHandler}>{props.children}</div>
+        <div className={`${styles["catalog-filter__button"]} ${isClicked && styles.clicked}`}
+            onClick={filterItemClickHandler}
+        >{props.children}</div>
     );
 };
 
