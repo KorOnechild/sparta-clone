@@ -8,10 +8,14 @@
 }
 
 .mainblocktitle_titles h4{
+    all: unset;
+
     font-size: 24px;
     font-weight: bold;
     line-height: 140%;
     color: #141617;
+
+    margin: 10px 0;
 }
 
 .mainblocktitle_titles p{

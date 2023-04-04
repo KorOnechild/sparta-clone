@@ -2,7 +2,7 @@ import React from "react";
 import "./MainBlockTitle.css";
 import { AiOutlineRight } from "react-icons/ai";
 
-const MainBlockTitle = (props) => {
+export const MainBlockTitle = (props) => {
   return (
     <div className="mainblocktitle_titles">
       <h4>{props.title}</h4>
@@ -10,6 +10,14 @@ const MainBlockTitle = (props) => {
         전체 보기
         <AiOutlineRight />
       </p>
+    </div>
+  );
+};
+
+export const MainBlockTitleWithout = (props) => {
+  return (
+    <div className="mainblocktitle_titles">
+      <h4>{props.title}</h4>
     </div>
   );
 };

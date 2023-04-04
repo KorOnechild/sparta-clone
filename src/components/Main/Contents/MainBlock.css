@@ -6,10 +6,15 @@
     align-items: center;
 }
 
+.mainblock__margin{
+    margin: 50px 0;
+}
+
 .mainblock__line{
     border: 0px;
     height: 1px;
     width: 1200px;
     background: rgb(228, 235, 240);
-    margin-top: 20px;
+    margin: 50px 0;
+    
 }
