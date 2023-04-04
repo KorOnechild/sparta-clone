@@ -5,17 +5,3 @@
     flex-flow: row wrap;
     margin-bottom: 50px;
 }
-
-.catalog-filter__button {
-    font-size: 14px;
-
-    margin: 0px 15px 10px 0px;
-    padding: 8px 16px;
-
-    border: solid 1px rgb(188, 188, 188);
-    border-radius: 23px;
-}
-
-.catalog-filter__button:hover {
-    background-color: rgba(246, 246, 246, 0.994);
-}
