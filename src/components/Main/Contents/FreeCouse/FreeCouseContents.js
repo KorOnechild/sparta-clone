@@ -15,7 +15,7 @@ const FreeCouseContents = (props) => {
         <ul>
           {props.contents.map((content) => (
             <FreeCourseList
-              //   key={contents.id}
+              key={content.title}
               img={content.image}
               title={content.title}
               desc={content.desc}
