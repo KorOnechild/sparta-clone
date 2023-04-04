@@ -5,8 +5,8 @@ import MainBlockTitle from "./MainBlockTitle";
 import ShortCourseContents from "./ShortCourse/ShortCourseContents";
 
 const MainBlock = (props) => {
-  const filteredNewCourseList = props.contents.filter((content) => {
-    return content.tag === "new";
+  const filteredFreeCourseList = props.contents.filter((content) => {
+    return content.category === "free";
   });
 
   const filteredPopularCourseList = props.contents.filter((content) => {
@@ -15,7 +15,7 @@ const MainBlock = (props) => {
   return (
     <div className="tastesblock__wrap">
       <MainBlockTitle title={"스파르타코딩클럽 맛보기"} />
-      <FreeCourseContents contents={filteredNewCourseList} />
+      <FreeCourseContents contents={filteredFreeCourseList} />
 
       <div className="tastesblock__line" />
 
