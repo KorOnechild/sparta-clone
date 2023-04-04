@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./BagicEle/Header";
-import Banner from "./BagicEle/Banner";
-import TastesBlock from "./Contents/TastesBlock";
+import Banner from "./BagicEle/Banner/Banner";
+import MainBlock from "./Contents/MainBlock";
 import Footer from "./BagicEle/Footer";
 
 const Main = (props) => {
@@ -9,7 +9,7 @@ const Main = (props) => {
     <div className="App">
       <Header />
       <Banner />
-      <TastesBlock contents={props.contents} />
+      <MainBlock contents={props.contents} />
       <Footer />
     </div>
   );
