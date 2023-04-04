@@ -1,0 +1,67 @@
+.servicecard__card-box{
+    gap: 24px;
+    width: 282px;
+    height: 398px;
+    cursor: pointer;
+}
+
+.servicecard__card-box-img{
+    border-radius: 12px 12px 0px 0px;
+    width: 282px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicecard__card-box-img img{
+    height: 40px;
+}
+
+.servicecard__contents{
+    gap: 24px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    height: 200px;
+}
+
+.servicecard__content-box{
+    gap: 10px;
+    
+    display: flex;
+    flex-direction: column;
+
+    height: 140px;
+    padding: 10px;
+}
+
+.servicecard__title{
+    font-size: 12px;
+    line-height: 150%;
+    color: #E8344E;
+}
+
+.servicecard__subtitle{
+    font-size: 15px;
+    line-height: 150%;
+    color: #141617;
+    font-weight: bold;
+}
+
+.servicecard__desc{
+    font-size: 14px;
+    line-height: 150%;
+    color: #5F666B;
+}
+
+.servicecard__subdesc{
+    font-size: 13px;
+    line-height: 150%;
+    color: #B4BFC6;
+
+    padding: 10px;
+}

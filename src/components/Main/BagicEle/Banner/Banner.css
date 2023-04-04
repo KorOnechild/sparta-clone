@@ -1,0 +1,86 @@
+.banner__wrap{
+    width: 100%;
+    height: 480px;
+    background: rgb(8, 50, 39);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner__moving-banner{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1200px;
+
+    cursor: pointer;
+}
+
+.banner__moving-banner button{
+    all: unset;
+
+    height: 30px;
+    padding: 0px 7px;
+    line-height: 30px;
+    border-radius: 5px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    background-color: #FFFFFF;
+}
+
+.banner__moving-banner img{
+    height: 480px;
+}
+
+.banner__moving-banner-contents div{
+    margin-bottom: 30px;
+}
+
+.banner__moving-banner-contents-title{
+    font-size: 32px;
+    line-height: 140%;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.banner__moving-banner-contents-desc{
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.banner__moving-button{
+
+    position: relative;
+}
+
+.banner__moving-button-contents{
+    height: 38px;
+    width: 100px;
+
+    margin: 20px;
+
+    background: #141617;
+    border-radius: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF
+}
+
+.banner__moving-button-contents > .icons{
+    size: 24px;
+    margin: 5px;
+
+    cursor: pointer;
+}

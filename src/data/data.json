@@ -8,7 +8,8 @@
       "lang": ["gpt"],
       "tag": "new",
       "category": "gpt",
-      "price": "90,000"
+      "price": "90,000",
+      "link": "https://online.spartacodingclub.kr/login?next=%2Fpayment%2F64269c728a9def2d676781b5"
     },
     {
       "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/web.png",
@@ -18,7 +19,8 @@
       "lang": ["html", "css", "python", "javascript"],
       "tag": "popular",
       "category": "it",
-      "price": "500,000"
+      "price": "500,000",
+      "link": "https://spartacodingclub.kr/online/web"
     },
     {
       "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/app.png",
@@ -28,7 +30,8 @@
       "lang": ["flutter"],
       "tag": "popular",
       "category": "it",
-      "price": "500,000"
+      "price": "500,000",
+      "link": "https://spartacodingclub.kr/online/app"
     },
     {
       "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/sql.png",
@@ -38,7 +41,8 @@
       "lang": ["sql"],
       "tag": "popular",
       "category": "license",
-      "price": "500,000"
+      "price": "500,000",
+      "link": "https://spartacodingclub.kr/online/sql"
     },
     {
       "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/spring.png",
@@ -48,7 +52,8 @@
       "lang": ["java", "spring"],
       "tag": "popular",
       "category": "junior",
-      "price": "500,000"
+      "price": "500,000",
+      "link": "https://spartacodingclub.kr/online/spring"
     },
     {
       "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/youth.png",
@@ -58,7 +63,8 @@
       "lang": ["python"],
       "tag": "youth",
       "category": "junior",
-      "price": "375,000"
+      "price": "375,000",
+      "link": "https://ddingdong.spartacodingclub.kr/"
     },
     {
       "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/cpp-grammar.png",
@@ -68,7 +74,8 @@
       "lang": ["C++"],
       "tag": null,
       "category": "game",
-      "price": "100,000"
+      "price": "100,000",
+      "link": "https://spartacodingclub.kr/online/lang/cpp"
     },
     {
       "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/webflow.png",
@@ -78,7 +85,8 @@
       "lang": ["nocode"],
       "tag": "new",
       "category": "it",
-      "price": "330,000"
+      "price": "330,000",
+      "link": "https://spartacodingclub.kr/online/webflow"
     },
     {
       "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/chatgpt.png",
@@ -88,7 +96,8 @@
       "lang": ["gpt"],
       "tag": "new",
       "category": "free",
-      "price": "0"
+      "price": "0",
+      "link": "https://spartacodingclub.kr/online/special/chatgpt"
     },
     {
       "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/coding101.png",
@@ -98,7 +107,8 @@
       "lang": null,
       "tag": null,
       "category": "free",
-      "price": "0"
+      "price": "0",
+      "link": "https://spartacodingclub.kr/online/coding101"
     },
     {
       "image": "https://spartacodingclub.kr/v5/images/catalog/cards/v2/zep.png",
@@ -108,7 +118,8 @@
       "lang": null,
       "tag": null,
       "category": "free",
-      "price": "0"
+      "price": "0",
+      "link": "https://zepxsparta.oopy.io/"
     }
   ]
 }
