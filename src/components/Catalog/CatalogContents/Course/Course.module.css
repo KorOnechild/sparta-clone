@@ -1,0 +1,47 @@
+.course__item {
+    width: 237px;
+    height: auto;
+    border-radius: 7px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.course__item img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+.course__contents {
+    margin-bottom: 7px;
+}
+
+.course__title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.course__desc {
+    color: rgba(102, 102, 102, 0.839);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.course__time {
+    color: rgba(102, 102, 102, 0.839);
+
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.course__price {
+    font-size: 16px;
+    font-weight: 600;
+}

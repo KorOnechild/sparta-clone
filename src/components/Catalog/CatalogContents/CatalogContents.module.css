@@ -1,0 +1,11 @@
+.catalog-contents {
+    max-width: 1200px;
+
+    margin: 100px auto 100px auto;
+    display: flex;
+}
+
+
+.catalog-contents__right {
+    margin-left: 20px;
+}

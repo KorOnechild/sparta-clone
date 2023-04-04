@@ -1,0 +1,19 @@
+.catalog-filter__button {
+    font-size: 14px;
+
+    margin: 0px 15px 10px 0px;
+    padding: 9px 16px;
+
+    border: solid 1px rgb(203, 203, 203);
+    border-radius: 23px;
+}
+
+.catalog-filter__button:hover {
+    background-color: rgba(246, 246, 246, 0.994);
+}
+
+.catalog-filter__button.clicked {
+    color: rgb(232, 52, 78);
+    border: solid 1px rgb(232, 52, 78);
+    background-color: rgb(255, 241, 244);
+}
