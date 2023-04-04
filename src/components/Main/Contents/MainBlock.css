@@ -1,4 +1,4 @@
-.tastesblock__wrap{
+.mainblock__wrap{
     background: #f2f6f8;
 
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.tastesblock__line{
+.mainblock__line{
     border: 0px;
     height: 1px;
     width: 1200px;

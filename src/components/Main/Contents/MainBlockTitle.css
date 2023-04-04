@@ -1,5 +1,5 @@
 
-.tastesblock__titles {
+.mainblocktitle_titles {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,14 +7,14 @@
     width: 1200px;
 }
 
-.tastesblock__titles h4{
+.mainblocktitle_titles h4{
     font-size: 24px;
     font-weight: bold;
     line-height: 140%;
     color: #141617;
 }
 
-.tastesblock__titles p{
+.mainblocktitle_titles p{
     font-size: 16px;
     color: #9DA7AE;
 

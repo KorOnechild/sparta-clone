@@ -4,11 +4,11 @@ import FreeCourseList from "./FreeCourseList";
 
 const FreeCourseContents = (props) => {
   return (
-    <div className="tastesblock__contents">
+    <div className="freecoursecontents__contents">
       <img src="img/course/course-chatgpt.png" alt="course-chatgpt" />
 
-      <div className="tastesblock__popular-free-contents">
-        <p className="tastesblock__popular-free-contents-title">
+      <div className="freecoursecontents__popular-free-contents">
+        <p className="freecoursecontents__popular-free-contents-title">
           인기 <br />
           무료 강의
         </p>

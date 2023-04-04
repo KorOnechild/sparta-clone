@@ -4,7 +4,7 @@ import { AiOutlineRight } from "react-icons/ai";
 
 const MainBlockTitle = (props) => {
   return (
-    <div className="tastesblock__titles">
+    <div className="mainblocktitle_titles">
       <h4>{props.title}</h4>
       <p>
         전체 보기

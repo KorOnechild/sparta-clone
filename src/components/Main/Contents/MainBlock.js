@@ -13,16 +13,21 @@ const MainBlock = (props) => {
     return content.tag === "popular";
   });
   return (
-    <div className="tastesblock__wrap">
+    <div className="mainblock__wrap">
       <MainBlockTitle title={"스파르타코딩클럽 맛보기"} />
       <FreeCourseContents contents={filteredFreeCourseList} />
 
-      <div className="tastesblock__line" />
+      <div className="mainblock__line" />
 
       <MainBlockTitle title={"단기 완성 코스 인기 강의"} />
       <ShortCourseContents contents={filteredPopularCourseList} />
 
-      <div className="tastesblock__line" />
+      <div className="mainblock__line" />
+
+      <MainBlockTitle title={"단기 완성 코스 인기 강의"} />
+      <ShortCourseContents contents={filteredPopularCourseList} />
+
+      <div className="mainblock__line" />
     </div>
   );
 };
