@@ -3,6 +3,7 @@ import "./MainBlock.css";
 import FreeCourseContents from "./FreeCourse/FreeCourseContents";
 import { MainBlockTitle, MainBlockTitleWithout } from "./MainBlockTitle";
 import ShortCourseContents from "./ShortCourse/ShortCourseContents";
+import ServiceContents from "./ServiceBlock/ServiceContents";
 
 const MainBlock = (props) => {
   const filteredFreeCourseList = props.contents.filter((content) => {
@@ -26,7 +27,7 @@ const MainBlock = (props) => {
       <div className="mainblock__line" />
 
       <MainBlockTitleWithout title={"창업・커리어 전환・개발자 채용"} />
-      <ShortCourseContents contents={filteredPopularCourseList} />
+      <ServiceContents service={props.service} />
 
       <div className="mainblock__line" />
     </div>

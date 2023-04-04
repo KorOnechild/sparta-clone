@@ -9,7 +9,11 @@ const Main = (props) => {
     <div className="App">
       <Header />
       <Banner />
-      <MainBlock contents={props.contents} />
+      <MainBlock
+        contents={props.contents}
+        service={props.service}
+        creations={props.creations}
+      />
       <Footer />
     </div>
   );
