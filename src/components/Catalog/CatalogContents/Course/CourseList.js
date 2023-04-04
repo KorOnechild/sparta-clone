@@ -5,12 +5,10 @@ import Course from "./Course";
 import "./CourseList.css";
 
 const CatalogList = (props) => {
-    const contents = props.data.contents;
-
     return (
         <div className="category-list">
             {
-                contents.map(content =>
+                props.data.map(content =>
                     <Course
                         key={content.title}
                         image={content.image}

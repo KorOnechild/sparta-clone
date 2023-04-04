@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <Catalog data={dummyData.contents} />
+      <Catalog data={dummyData.contents.contents} />
     </div>
   );
 }

@@ -5,7 +5,8 @@ import "./Course.css";
 const Course = props => {
     return (
         <div className="course__item">
-            <img src={props.image} />
+            <img src={props.image}
+                alt="" />
             <div className="course__contents">
                 <div className="course__title">{props.title}</div>
                 <div className="course__desc">{props.desc}</div>

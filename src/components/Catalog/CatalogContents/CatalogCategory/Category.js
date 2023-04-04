@@ -3,10 +3,15 @@ import React from "react";
 import "./Category.css";
 
 const Category = props => {
-    const className = props.className;
+
+    const categoryClickHandler = () => {
+        props.onCategoryEditHandler(props.category);
+    };
 
     return (
-        <div className={className}>{props.children}</div>
+        <div className={`catalog-category__item ${props.clickedCate === props.category ? "clicked" : ""}`}
+            onClick={categoryClickHandler}
+        > {props.children} </div>
     );
 };
 

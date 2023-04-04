@@ -14,7 +14,8 @@ const CatalogBanner = () => {
                     <p className="desc">1시간만에 완성! 선착순 무료예요.</p>
                     <div className="catalog-banner__button">더 알아보기</div>
                 </div>
-                <img src={catalogBannerImg} />
+                <img src={catalogBannerImg}
+                    alt="chatGPT" />
             </div>
         </div >
     );

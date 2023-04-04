@@ -11,3 +11,9 @@
 .catalog-category__item:hover {
     background-color: rgba(246, 246, 246, 0.994);
 }
+
+.catalog-category__item.clicked {
+    color: black;
+    font-weight: 700;
+    background-color: rgba(246, 246, 246, 0.994);
+}
