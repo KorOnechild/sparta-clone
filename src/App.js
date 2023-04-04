@@ -16,7 +16,6 @@ function App() {
 
   return (
     <div className="App">
-      <Catalog data={dummyData.contents.contents} />
       <Main
         contents={dummyData.contents.contents}
         creations={dummyData.creations.creations}
