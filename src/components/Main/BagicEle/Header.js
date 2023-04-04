@@ -9,7 +9,7 @@ const Header = () => {
     <div className="header__wrap">
       <div className="header__contents">
         <img
-          src="img/sparta-logo.webp"
+          src="img/logo/sparta-logo.webp"
           alt="sparta-logo"
           className="header__img"
         />
