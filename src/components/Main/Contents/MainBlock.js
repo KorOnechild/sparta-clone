@@ -4,6 +4,7 @@ import FreeCourseContents from "./FreeCourse/FreeCourseContents";
 import { MainBlockTitle, MainBlockTitleWithout } from "./MainBlockTitle";
 import ShortCourseContents from "./ShortCourse/ShortCourseContents";
 import ServiceContents from "./ServiceBlock/ServiceContents";
+import AddInfo from "../BagicEle/AddInfo";
 
 const MainBlock = (props) => {
   const filteredFreeCourseList = props.contents.filter((content) => {
@@ -30,6 +31,8 @@ const MainBlock = (props) => {
       <ServiceContents service={props.service} />
 
       <div className="mainblock__line" />
+
+      <AddInfo />
     </div>
   );
 };
