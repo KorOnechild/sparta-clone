@@ -7,7 +7,8 @@
         "subtitle": "평일에는 직장인, 주말에는 창업가로",
         "desc": "창업팀 빌딩부터 투자 유치까지<br /> 실전 창업 전 과정 제공",
         "subdesc": "5기 모집 중",
-        "link": "https://chang.spartacodingclub.kr/"
+        "link": "https://chang.spartacodingclub.kr/",
+        "color": "#0D1F7A"
       },
       {
         "logo": "img/logo/camp-logo.svg",
@@ -16,7 +17,8 @@
         "subtitle": "전액 국비지원, 개발자 취업까지",
         "desc": "프로젝트,포트폴리오 최적화 부트캠프",
         "subdesc": "단 300명, 웹개발자 모집 중",
-        "link": "https://nbcamp.spartacodingclub.kr/"
+        "link": "https://nbcamp.spartacodingclub.kr/",
+        "color": "#31544B"
       },
       {
         "logo": "img/logo/swcamp-logo.svg",
@@ -25,16 +27,18 @@
         "subtitle": "서비스의 성공을 이끄는 PM으로",
         "desc": "직장과 병행하며 PM으로 커리어 전환",
         "subdesc": "2기 모집 중",
-        "link": "https://swcamp.spartacodingclub.kr/"
+        "link": "https://swcamp.spartacodingclub.kr/",
+        "color": "#62808f"
       },
       {
         "logo": "img/logo/intellipick-logo.webp",
-        "name": "창intellipick",
+        "name": "intellipick",
         "title": "IT인재 채용 플랫폼",
         "subtitle": "핫한 스타트업 모두 인텔리픽에",
         "desc": "어디에도 없는 유니콘 채용공고부터,<br /> 최근에 투자받은 스타트업까지",
         "subdesc": "유니콘 스타트업 채용공고 500개 이상",
-        "link": "https://intellipick.spartacodingclub.kr/"
+        "link": "https://intellipick.spartacodingclub.kr/",
+        "color": "#6E50FF"
       }
      
     ]

@@ -4,16 +4,17 @@ import ServiceCard from "./ServiceCard";
 
 const ServiceContents = (props) => {
   return (
-    <div className="shortcoursecontents__contents-box">
+    <div className="servicesecontents__contents-box">
       {props.service.map((service) => (
         <ServiceCard
-          key={props.name}
-          logo={props.logo}
-          title={props.title}
-          subtitle={props.subtitle}
-          desc={props.desc}
-          subdesc={props.subdesc}
-          link={props.link}
+          key={service.name}
+          logo={service.logo}
+          title={service.title}
+          subtitle={service.subtitle}
+          desc={service.desc}
+          subdesc={service.subdesc}
+          link={service.link}
+          color={service.color}
         />
       ))}
     </div>

@@ -1,0 +1,6 @@
+.servicesecontents__contents-box{
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+
+}
