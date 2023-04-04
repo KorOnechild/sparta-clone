@@ -1,22 +1,28 @@
 import React from "react";
 import "./MainBlock.css";
-import FreeCouseContents from "./FreeCouse/FreeCouseContents";
+import FreeCourseContents from "./FreeCourse/FreeCourseContents";
 import MainBlockTitle from "./MainBlockTitle";
-import ShortCouseContents from "./ShortCourse/ShortCouseContents";
+import ShortCourseContents from "./ShortCourse/ShortCourseContents";
 
 const MainBlock = (props) => {
-  const filteredCourseList = props.contents.filter((content) => {
+  const filteredNewCourseList = props.contents.filter((content) => {
     return content.tag === "new";
+  });
+
+  const filteredPopularCourseList = props.contents.filter((content) => {
+    return content.tag === "popular";
   });
   return (
     <div className="tastesblock__wrap">
       <MainBlockTitle title={"스파르타코딩클럽 맛보기"} />
-      <FreeCouseContents contents={filteredCourseList} />
+      <FreeCourseContents contents={filteredNewCourseList} />
 
       <div className="tastesblock__line" />
 
       <MainBlockTitle title={"단기 완성 코스 인기 강의"} />
-      <ShortCouseContents contents={filteredCourseList} />
+      <ShortCourseContents contents={filteredPopularCourseList} />
+
+      <div className="tastesblock__line" />
     </div>
   );
 };

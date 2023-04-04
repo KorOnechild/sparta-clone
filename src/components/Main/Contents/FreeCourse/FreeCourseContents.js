@@ -1,8 +1,8 @@
 import React from "react";
-import "./FreeCouseContents.css";
+import "./FreeCourseContents.css";
 import FreeCourseList from "./FreeCourseList";
 
-const FreeCouseContents = (props) => {
+const FreeCourseContents = (props) => {
   return (
     <div className="tastesblock__contents">
       <img src="img/course/course-chatgpt.png" alt="course-chatgpt" />
@@ -27,4 +27,4 @@ const FreeCouseContents = (props) => {
   );
 };
 
-export default FreeCouseContents;
+export default FreeCourseContents;
