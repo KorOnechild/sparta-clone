@@ -6,17 +6,33 @@ import MainBlock from "./Contents/MainBlock";
 import Catalog from "../Catalog/Catalog";
 import Footer from "./BagicEle/Footer";
 
-const Main = (props) => {
+export const Main = (props) => {
   return (
     <div className="App">
-      <Header />
+      <Header
+        onClickChange={props.onClickChange}
+        onClickNotChange={props.onClickNotChange}
+      />
       <Banner />
       <MainBlock
         contents={props.contents}
         service={props.service}
         creations={props.creations}
+        onClickChange={props.onClickChange}
       />
-      {/* <Catalog data={props.contents} /> */}
+      <Footer />
+    </div>
+  );
+};
+
+export const MainCatalog = (props) => {
+  return (
+    <div className="App">
+      <Header
+        onClickChange={props.onClickChange}
+        onClickNotChange={props.onClickNotChange}
+      />
+      <Catalog data={props.contents} />
       <Footer />
     </div>
   );

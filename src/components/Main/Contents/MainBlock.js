@@ -17,12 +17,18 @@ const MainBlock = (props) => {
   return (
     <div className="mainblock__wrap">
       <div className="mainblock__margin" />
-      <MainBlockTitle title={"스파르타코딩클럽 맛보기"} />
+      <MainBlockTitle
+        title={"스파르타코딩클럽 맛보기"}
+        onClickChange={props.onClickChange}
+      />
       <FreeCourseContents contents={filteredFreeCourseList} />
 
       <div className="mainblock__line" />
 
-      <MainBlockTitle title={"단기 완성 코스 인기 강의"} />
+      <MainBlockTitle
+        title={"단기 완성 코스 인기 강의"}
+        onClickChange={props.onClickChange}
+      />
       <ShortCourseContents contents={filteredPopularCourseList} />
 
       <div className="mainblock__line" />

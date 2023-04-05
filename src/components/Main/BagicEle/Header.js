@@ -2,19 +2,23 @@ import React from "react";
 import { MdPersonOutline } from "react-icons/md";
 import "./Header.css";
 
-const Header = () => {
+const Header = (props) => {
   const urlHttp = "https://";
   const spartaUrl = "spartacodingclub.kr";
+
   return (
     <div className="header__wrap">
       <div className="header__contents">
         <img
+          onClick={() => props.onClickNotChange(false)}
           src="img/logo/sparta-logo.webp"
           alt="sparta-logo"
           className="header__img"
         />
         <div className="header__line"></div>
-        <button>코딩 단기 완성</button>
+        <button onClick={() => props.onClickChange(true)}>
+          코딩 단기 완성
+        </button>
         <button onClick={() => window.open(urlHttp + spartaUrl + "/nb")}>
           국비지원
         </button>
