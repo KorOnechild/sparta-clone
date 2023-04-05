@@ -3,6 +3,11 @@
 
 https://koronechild.github.io/sparta-clone/index
 
+
+# decription
+- React를 사용하여 서버 작업 없이 페이지 UI 제작
+- 기본 더미데이터 베이스로 작업 
+
 # code convention
 - 따옴표 사용은 큰따옴표로 통일
 - 변수명은 camelCase 사용
