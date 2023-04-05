@@ -1,0 +1,63 @@
+.shortcoursecard__card-box{
+    gap: 24px;
+    width: 282px;
+    height: 398px;
+    cursor: pointer;
+}
+
+.shortcoursecard__card-box img{
+    border-radius: 12px 12px 0px 0px;
+    height: 180px;
+}
+
+.shortcoursecard__contents{
+    gap: 24px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    height: 200px;
+}
+
+.shortcoursecard__content-box{
+    gap: 10px;
+    
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+.shortcoursecard__title{
+    font-size: 16px;
+    line-height: 160%;
+    color: #141617;
+    font-weight: bold;
+}
+
+.shortcoursecard__desc{
+    font-size: 13px;
+    line-height: 150%;
+    color: #5F666B;
+}
+
+.shortcoursecard__time{
+    font-size: 13px;
+    line-height: 130%;
+    color: #5F666B;
+    font-weight: bold;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.shortcoursecard__price{
+    font-size: 16px;
+    line-height: 160%;
+    color: #141617;
+    font-weight: bold;
+
+    padding: 10px;
+}

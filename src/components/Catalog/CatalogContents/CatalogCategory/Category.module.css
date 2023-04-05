@@ -1,0 +1,20 @@
+.catalog-category__item {
+    width: 130px;
+    color: rgb(42, 42, 42);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding: 14px 0px 14px 20px;
+
+    border-radius: 10px;
+}
+
+.catalog-category__item:hover {
+    background-color: rgba(246, 246, 246, 0.994);
+}
+
+.catalog-category__item.clicked {
+    color: black;
+    font-weight: 700;
+    background-color: rgba(246, 246, 246, 0.994);
+}

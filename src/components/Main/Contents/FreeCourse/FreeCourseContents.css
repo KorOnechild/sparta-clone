@@ -1,0 +1,35 @@
+ul{
+    all: unset;
+    padding-right: 10px;
+}
+.freecoursecontents__contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1200px;
+}
+
+.freecoursecontents__contents img{
+    max-width: 580px;
+
+}
+
+.freecoursecontents__popular-free-contents{
+    background: #fff;
+    width: 580px;
+
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.freecoursecontents__popular-free-contents-title{
+    font-size: 18px;
+    line-height: 150%;
+    color: #141617;
+    font-weight: bold;
+    display: inherit;
+    padding-left: 10px;
+} 

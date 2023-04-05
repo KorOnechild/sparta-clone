@@ -1,0 +1,30 @@
+
+.mainblocktitle_titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1200px;
+}
+
+.mainblocktitle_titles h4{
+    all: unset;
+
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 140%;
+    color: #141617;
+
+    margin: 10px 0;
+}
+
+.mainblocktitle_titles p{
+    font-size: 16px;
+    color: #9DA7AE;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    cursor: pointer;
+}
