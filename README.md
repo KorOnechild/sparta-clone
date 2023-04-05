@@ -1,6 +1,7 @@
 # sparta-clone
+스파르타 코딩클럽 페이지 클론코딩 
+
 https://koronechild.github.io/sparta-clone/index
-스파르타 코딩클럽 페이지 클론코딩
 
 # code convention
 - 따옴표 사용은 큰따옴표로 통일
