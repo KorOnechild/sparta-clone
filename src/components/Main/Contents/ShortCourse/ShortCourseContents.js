@@ -23,7 +23,7 @@ const ShortCourseContents = (props) => {
       </div>
       <img
         className="shortcoursecontents__last-box"
-        src="/img/course/popular-last-card.png"
+        src="img/course/popular-last-card.png"
         alt="card"
         onClick={() => window.open("https://spartacodingclub.kr/nb")}
       />
