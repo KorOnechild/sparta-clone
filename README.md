@@ -1,7 +1,11 @@
 # 스파르타 코딩클럽 페이지 클론코딩😊
 
+### Link
+
 https://koronechild.github.io/sparta-clone/index
 
+# tools
+[![My Skills](https://skillicons.dev/icons?i=js,react,vscode)](https://skillicons.dev)
 
 # decription✍
 - React를 사용하여 서버 작업 없이 페이지 UI 제작
